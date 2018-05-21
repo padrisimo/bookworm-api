@@ -11,7 +11,6 @@ Insert the user model:
 
 ```
 > db.users.insert({ email: "test@test.com", passwordHash: "$2b$10$bQ4v8cIaq.YfUdaTa5v5lu2vaLwzhsNIBKwsQcfkShhbS7iyVByaq"})
-WriteResult({ "nInserted" : 1 })
 ```
 
 Check if you did right by typing:
