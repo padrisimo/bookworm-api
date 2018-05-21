@@ -1,4 +1,4 @@
-# Bookworm
+# Bookworm API
 
 Set a Mongo db called bookworm:
 
