@@ -18,7 +18,7 @@ schema.methods.isValidPassword = function isValidPassword(password) {
 schema.methods.generateJWT = function generateJWT() {
   return jwt.sign({
     email: this.email
-  }, 'secretKey')
+  }, process.env.JWT_SECRET)
 }
 
 schema.methods.toAuthJSON = function toAuthJSON() {
